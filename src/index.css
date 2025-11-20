@@ -68,19 +68,28 @@ button:focus-visible {
 }
 
 .card{
-background-color: pink;
-border-radius: 10px;
-margin: 20px;
-padding: 15px;
+  background-color: pink;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 15px;
+  width: 400px;
 }
 
 .navbar{
-background-color: rgb(68, 70, 162);
-border-radius: 10px;
-margin: 20px;
-padding: 15px;
+  background-color: rgb(68, 70, 162);
+  border-radius: 10px;
+  margin: 20px;
+  padding: 15px;
 }
-.parent{
+
+.maincard {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.parent {
   padding: 20px;
   display: flex;
   align-items: center;

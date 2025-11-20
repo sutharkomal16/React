@@ -7,8 +7,11 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <Card />
-      <Card />
+      <div className="maincard">
+        <Card />
+        <Card />
+      </div>
+
       <Home />
       <div className="parent">
         <Childcard user='komal' age={23} />
