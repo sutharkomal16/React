@@ -80,3 +80,38 @@ border-radius: 10px;
 margin: 20px;
 padding: 15px;
 }
+.parent{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.childcard{
+  width: 300px;
+  border: #fff5f5 1px solid;
+  margin: 20px;
+  text-align: center;
+  background-color: #333;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.childcard img{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.childcard p{
+  margin: 20px 0px;
+}
+
+.childcard button{
+  padding:10px 20px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  border: none;
+}
